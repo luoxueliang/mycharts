@@ -1,0 +1,4 @@
+host: lxl.com
+image: nginx
+imageTag: stable
+replicas: 1
