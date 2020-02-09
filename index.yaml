@@ -1,0 +1,25 @@
+apiVersion: v1
+entries:
+  AMLMAS-O-RTM:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-02-09T10:05:29.198256033+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 87eb39860dc8d97d06960d9e1c031dd2d9f8f5a8a9bb04a27b7ebbca5b18cf13
+    name: AMLMAS-O-RTM
+    urls:
+    - http://192.168.186.12:9080/allcharts/AMLMAS-O-RTM
+    version: 0.1.0
+generated: "2020-02-09T10:05:29.161489525+08:00"
+entries:
+  AMLMAS-O-AEA:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2020-02-09T10:05:29.198256033+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 87eb39860dc8d97d06960d9e1c031dd2d9f8f5a8a9bb04a27b7ebbca5b18cf13
+    name: AMLMAS-O-AEA
+    urls:
+    - http://192.168.186.12:9080/allcharts/AMLMAS-O-AEA
+    version: 0.1.0
+generated: "2020-02-09T10:05:29.161489525+08:00"
