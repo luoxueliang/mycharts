@@ -1,16 +1,11 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: {{ include "amlmas-o-rtm.fullname" . }}
-  labels:
-{{ include "amlmas-o-rtm.labels" . | indent 4 }}
+  name: {{ .Release.Name }}-svc #服务名
 spec:
-  type: {{ .Values.service.type }}
+  selector: #pod选择器定义
+    app: {{ .Release.Name }}
   ports:
-    - port: {{ .Values.service.port }}
-      targetPort: http
-      protocol: TCP
-      name: http
-  selector:
-    app.kubernetes.io/name: {{ include "amlmas-o-rtm.name" . }}
-    app.kubernetes.io/instance: {{ .Release.Name }}
+  - protocol: TCP 
+    port: 80
+    targetPort: 80
