@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  loner:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-03-02T11:23:31.908699512+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 6bbf244a100a8f8c8e8cdcca222967b8d25240113aedf345db0f71c45c19ada6
+    name: loner
+    urls:
+    - loner-0.1.12.tgz
+    version: 0.1.12
+generated: "2020-03-02T11:23:31.90823402+08:00"
